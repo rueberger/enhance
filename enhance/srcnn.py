@@ -152,8 +152,7 @@ def srcnn2x(photo_file_path, output_file_path, model_folder=model_folder, compar
     rgb_scaled_img = cv2.cvtColor(ycc_scaled_input_img, cv2.COLOR_YCR_CB2BGR)
     cv2.imwrite(output_file_path, rgb_scaled_img)
 
-
-if __name__ == '__main__':
+def main():
     #predict(model_folder=training_model_folder)
     # input = '../data/small-320-cropped/attractive-beautiful-body-smiling-41248.jpeg'
     input_file_path = args.input
@@ -170,4 +169,3 @@ if __name__ == '__main__':
             output_file_path=output_file_path,
             model_folder=model_folder,
             compare=flag_compare)
-
