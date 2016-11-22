@@ -19,14 +19,9 @@ Also optionally accepts output path as second argument
 
 `enhance` doubles an image's resolution. You can achieve any power-of-two upsampling through recursive calls, but unless you have a beastly workstation I don't recommend it.
 
-Original image
+Lenna and 4x upsampled Lenna 
 
-![slide](https://raw.githubusercontent.com/rueberger/enhance/master/assets/lenna_crop_upsample.jpg)
-
-
-4x upsampled
-
-![slide](https://raw.githubusercontent.com/rueberger/enhance/master/assets/lenna_4x_crop.jpeg)
+![slide](https://raw.githubusercontent.com/rueberger/enhance/master/assets/lenna_crop_upsample.jpg) ![slide](https://raw.githubusercontent.com/rueberger/enhance/master/assets/lenna_4x_crop.jpeg)
 
 
 ## Disclaimer
