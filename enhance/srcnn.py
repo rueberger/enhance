@@ -37,7 +37,7 @@ args = parser.parse_args()
 if args.output == None:
     file_name_with_ext = os.path.basename(args.input) # returns filename from path
     filename_wo_ext, ext = os.path.splitext(file_name_with_ext)
-    output_file_path = os.path.join(os.path.dirname(args.input), filename_wo_ext + '-theanonSR.jpg')
+    output_file_path = os.path.join(os.path.dirname(args.input), filename_wo_ext + '_enhanced.jpg')
     conventional_file_path = os.path.join(os.path.dirname(args.input), filename_wo_ext + '-conventional.jpg')
 else:
     file_name_with_ext = os.path.basename(args.output) # returns filename from path

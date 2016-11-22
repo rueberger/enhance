@@ -1,7 +1,5 @@
 from setuptools import setup
 
-with open('README.md') as f:
-    long_descr = f.read().decode('utf-8')
 
 setup(
     name = "enhance",
@@ -11,7 +9,10 @@ setup(
     },
     version = '1.0',
     description = "ENHANCE",
-    long_description = long_descr,
+    long_description = """ command-line utility for enhancing images. seriously.
+
+    See full readme at https://github.com/rueberger/enhance
+    """
     author = "Andrew Berger",
     author_email = "andbberger@gmail.co"
     )
