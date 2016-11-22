@@ -7,7 +7,7 @@ setup(
     entry_points = {
                 "console_scripts": ['enhance = enhance.srcnn:main']
     },
-    version = '1.0',
+    version = '1.1',
     description = "ENHANCE",
     long_description = """ command-line utility for enhancing images. seriously.
 
