@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: enhance
+Version: 1.1
+Summary: ENHANCE
+Home-page: UNKNOWN
+Author: Andrew Berger
+Author-email: andbberger@gmail.co
+License: UNKNOWN
+Description:  command-line utility for enhancing images. seriously.
+        
+            See full readme at https://github.com/rueberger/enhance
+            
+Platform: UNKNOWN

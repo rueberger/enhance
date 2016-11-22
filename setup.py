@@ -12,7 +12,7 @@ setup(
     long_description = """ command-line utility for enhancing images. seriously.
 
     See full readme at https://github.com/rueberger/enhance
-    """
+    """,
     author = "Andrew Berger",
     author_email = "andbberger@gmail.co"
     )
