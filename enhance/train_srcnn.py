@@ -20,11 +20,11 @@ import numpy as np
 import theano
 import theano.tensor as T
 
-from tools.prepare_data import load_data
-from tools.image_processing import preprocess
+from enhance.prepare_data import load_data
+from enhance.image_processing import preprocess
 
 # from mlp import HiddenLayer
-from layer import ConvLayer
+from enhance.layer import ConvLayer
 
 # Default setting
 #model_name = '3x3x3_1x3x3'
@@ -466,6 +466,3 @@ if __name__ == '__main__':
     predict_test_set(model_folder=training_model_folder,
                      image_height=232,
                      image_width=232)
-
-
-

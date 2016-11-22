@@ -17,8 +17,8 @@ import numpy as np
 import theano
 import theano.tensor as T
 
-from layer import ConvLayer
-from tools.image_processing import preprocess
+from enhance.layer import ConvLayer
+from enhance.image_processing import preprocess
 
 # Default setting
 model_name = '16x3x3_32x3x3_32x3x3_64x3x3_1x3x3'

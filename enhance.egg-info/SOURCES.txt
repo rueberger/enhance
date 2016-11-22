@@ -1,7 +1,9 @@
 setup.py
 enhance/__init__.py
 enhance/__main__.py
+enhance/image_processing.py
 enhance/layer.py
+enhance/prepare_data.py
 enhance/srcnn.py
 enhance/train_srcnn.py
 enhance.egg-info/PKG-INFO
